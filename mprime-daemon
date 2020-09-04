@@ -1,2 +1,2 @@
-#!/bin/sh
-mprime -W$XDG_DATA_HOME -d
+#!/bin/env sh
+mprime -W"$XDG_DATA_HOME" -d
