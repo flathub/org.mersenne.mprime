@@ -34,8 +34,8 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://www.mersenne.org/ftp_root/gimps/p95v298b6.linux64.tar.gz
-        sha256: 9234a572807fdddc4bde1a0a93a90b80ade6b6c2a541b98ddb668ff64084e63f
+        url: https://www.mersenne.org/ftp_root/gimps/p95v303b6.linux64.tar.gz
+        sha256: ee54b56062feb05c9f80963a4e3ae8555d0e59ca60ddbcba65ce05225c9b9a79
       - type: file
         path: mprime-wrapper
       - type: file
