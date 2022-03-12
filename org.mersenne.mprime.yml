@@ -17,7 +17,7 @@ modules:
     build-commands:
       - install -Dm775 -t "${FLATPAK_DEST}"/bin dl/mprime mprime-wrapper
       - install -Dm644 -t "${FLATPAK_DEST}"/share/licenses/mprime dl/license.txt
-      - install -Dm644 -t "${FLATPAK_DEST}"/share/metainfo org.mersenne.mprime.appdata.xml
+      - install -Dm644 -t "${FLATPAK_DEST}"/share/metainfo org.mersenne.mprime.metainfo.xml
       - install -Dm644 -t "${FLATPAK_DEST}"/share/applications org.mersenne.mprime.desktop
       - install -Dm644 -t "${FLATPAK_DEST}"/share/icons/hicolor/128x128/apps org.mersenne.mprime.prime95.png
     sources:
@@ -39,4 +39,4 @@ modules:
       - type: file
         path: org.mersenne.mprime.prime95.png
       - type: file
-        path: org.mersenne.mprime.appdata.xml
+        path: org.mersenne.mprime.metainfo.xml
