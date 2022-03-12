@@ -19,10 +19,11 @@
           <screenshot>https://3.bp.blogspot.com/-CAWPIcQ9Qx8/T6vzdHj-B2I/AAAAAAAAAPY/6A_t46hl5mo/s1600/Screenshot+from+2012-05-10+19:35:57.png</screenshot>
   </screenshots>
   <releases>
+    <release version="307b9" date="2021-11-15"/>
     <release version="30.3b6" date="2020-09-11"/>
     <release version="29.8b6" date="2019-08-18"/>
     <release version="29.8b3" date="2019-04-23"/>
   </releases>
-  <content_rating type="oars-1.0" />
+  <content_rating type="oars-1.0"/>
   <update_contact>woltman@alum.mit.edu</update_contact>
 </component>
