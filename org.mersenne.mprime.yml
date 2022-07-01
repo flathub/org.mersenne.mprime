@@ -26,8 +26,8 @@ modules:
         strip-components: 0
         only-arches:
           - x86_64
-        url: https://download.mersenne.ca/gimps/p95v307b9.linux64.tar.gz
-        sha256: d47d766c734d1cca4521cf7b37c1fe351c2cf1fbe5b7c70c457061a897a5a380
+        url: https://download.mersenne.ca/gimps/p95v308b15.linux64.tar.gz
+        sha256: 2436b4e23fe52fa1660de08bcbc1f4cc85ff7b6f020587aa5e952850f529587a
         x-checker-data:
           type: html
           url: https://www.mersenne.org/download/?mirror=1
