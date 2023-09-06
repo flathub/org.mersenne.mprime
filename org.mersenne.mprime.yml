@@ -1,7 +1,7 @@
 app-id: org.mersenne.mprime
 
 runtime: org.freedesktop.Platform
-runtime-version: '20.08'
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 
 command: mprime-wrapper
@@ -26,12 +26,12 @@ modules:
         strip-components: 0
         only-arches:
           - x86_64
-        url: https://download.mersenne.ca/gimps/p95v308b17.linux64.tar.gz
+        url: https://download.mersenne.ca/gimps/v30/30.8/p95v308b17.linux64.tar.gz
         sha256: 5180c3843d2b5a7c7de4aa5393c13171b0e0709e377c01ca44154608f498bec7
         x-checker-data:
           type: html
           url: https://www.mersenne.org/download/?mirror=1
-          pattern: (https://download.mersenne.ca/gimps/p95v(\d+b*\d*).linux64.tar.gz)
+          pattern: (https://download.mersenne.ca/gimps/v30/30.8/p95v(\d+b*\d*).linux64.tar.gz)
       - type: file
         path: mprime-wrapper
       - type: file
