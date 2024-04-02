@@ -26,12 +26,12 @@ modules:
         strip-components: 0
         only-arches:
           - x86_64
-        url: https://download.mersenne.ca/gimps/v30/30.8/p95v308b17.linux64.tar.gz
-        sha256: 5180c3843d2b5a7c7de4aa5393c13171b0e0709e377c01ca44154608f498bec7
+        url: https://www.mersenne.org/download/software/v30/30.19/p95v3019b13.linux64.tar.gz
+        sha256: 2527f5961ce043b3f551c98dfe6a33dec0f921d38a8ca0367c6d86250714d7af
         x-checker-data:
           type: html
           url: https://www.mersenne.org/download/?mirror=1
-          pattern: (https://download.mersenne.ca/gimps/v30/30.8/p95v(\d+b*\d*).linux64.tar.gz)
+          pattern: (https://www.mersenne.org/download/software/v30/30.19/p95v(\d+b*\d*).linux64.tar.gz)
       - type: file
         path: mprime-wrapper
       - type: file
