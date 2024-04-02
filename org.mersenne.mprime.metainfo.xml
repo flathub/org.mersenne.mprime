@@ -18,8 +18,9 @@
   <developer_name>George Woltman</developer_name>
   <screenshots>
     <screenshot type="default">
-    <image type="source">https://3.bp.blogspot.com/-CAWPIcQ9Qx8/T6vzdHj-B2I/AAAAAAAAAPY/6A_t46hl5mo/s1600/Screenshot+from+2012-05-10+19:35:57.pn</image>
-    <caption>Main screen</caption>
+      <image type="source">https://3.bp.blogspot.com/-CAWPIcQ9Qx8/T6vzdHj-B2I/AAAAAAAAAPY/6A_t46hl5mo/s1600/Screenshot+from+2012-05-10+19:35:57.pn</image>
+      <caption>Main screen</caption>
+    </screenshot>
   </screenshots>
   <releases>
     <release version="30.19b13" date="2024-03-07"/>
