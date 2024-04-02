@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
   <id>org.mersenne.mprime</id>
+  <launchable type="desktop-id">org.mersenne.mprime.desktop</launchable>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary</project_license>
   <name>mprime</name>
@@ -16,7 +17,9 @@
   <url type="homepage">https://www.mersenne.org</url>
   <developer_name>George Woltman</developer_name>
   <screenshots>
-          <screenshot>https://3.bp.blogspot.com/-CAWPIcQ9Qx8/T6vzdHj-B2I/AAAAAAAAAPY/6A_t46hl5mo/s1600/Screenshot+from+2012-05-10+19:35:57.png</screenshot>
+    <screenshot type="default">
+    <image type="source">https://3.bp.blogspot.com/-CAWPIcQ9Qx8/T6vzdHj-B2I/AAAAAAAAAPY/6A_t46hl5mo/s1600/Screenshot+from+2012-05-10+19:35:57.pn</image>
+    <caption>Main screen</caption>
   </screenshots>
   <releases>
     <release version="30.19b13" date="2024-03-07"/>
