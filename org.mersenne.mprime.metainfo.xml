@@ -23,6 +23,7 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="30.19+build.20" date="2024-06-02"/>
     <release version="30.19+build.13" date="2024-03-07"/>
     <release version="30.8+build.17" date="2022-09-28"/>
     <release version="30.8+build.16" date="2022-08-09"/>
