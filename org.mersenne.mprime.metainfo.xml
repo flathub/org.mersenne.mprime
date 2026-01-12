@@ -7,6 +7,7 @@
   <name>mprime</name>
   <summary>Free Mersenne Prime Search Software</summary>
   <description>
+    <p>**NOTE: This wrapper is not verified by, affiliated with, or supported by George Woltman.**</p>
     <p>
         This program is used to find Mersenne Prime numbers.
         Mersenne numbers can be proved composite (not prime)
